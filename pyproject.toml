@@ -22,7 +22,7 @@ classifiers = [
   "Programming Language :: Python :: 3.12",
   "Programming Language :: Python :: Implementation :: CPython"
 ]
-dependencies = ["django>=3.2"]
+dependencies = ["django>=3.2", "mkdocs", "mkdocs-material", "mkdocs-monorepo-plugin"]
 description = "Centralize and relay email from multiple distributed Django projects to an internal SMTP server via a database queue."
 dynamic = ["version"]
 keywords = []

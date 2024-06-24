@@ -1,0 +1,32 @@
+site_name: django-email-relay
+repo_name: "williln/django-email-relay"
+repo_url: "https://github.com/williln/django-email-relay"
+
+theme:
+  name: material
+  language: "en"
+  palette:
+    primary: "blue"
+    accent: "blue"
+  font:
+    text: "Circular"
+    code: "Inconsolata"
+
+extra:
+  repo_icon: "github"
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      linenums: true
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+nav:
+  - Home: "index.md"
+  - Configuration: "configuration/index.md"
+  - Contributing: "contributing/index.md"
+  - Just: "development/just.md"
+  - Installation: "installation/index.md"
+  - GitHub Source Code: https://github.com/backstage/mkdocs-monorepo-plugin
